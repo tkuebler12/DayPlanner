@@ -11,6 +11,14 @@ body {
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
+    position: relative;
+    top: 5px;
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
   }
   
   .jumbotron {
@@ -69,4 +77,3 @@ body {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
-  
